@@ -1,0 +1,226 @@
+@import url('https://fonts.google.com/specimen/Source+Sans+Pro');
+
+*{
+    margin:0;
+    padding:0;
+    user-select:none;
+}
+
+#nav-bar{
+    position:initial;  /*sticky*/
+    top:0;
+}
+
+.navbar-brand img {
+    height:40px;
+    padding-left:.3rem;
+    padding-right:21rem;
+}
+
+.navbar-nav li {
+    padding:0 .2rem 0 1rem;
+}
+
+.navbar-nav li a {
+    float:right;
+    text-align:center;
+}
+
+#nav-bar ul li a:hover {
+    color:#c461e1 !important;
+}
+
+.sosial-img{
+    height: 20px;
+}
+
+.sosial-first {
+    padding-left: 24rem;
+    animation-name: animasiya;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: forwards;
+}
+
+.sosial-sec {
+    animation-name: animasiyaSec;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: forwards;
+}
+
+.sosial-three {
+    animation-name: animasiya;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: forwards;
+}
+
+@keyframes animasiya {
+    from {
+        margin-top:20px;
+    }
+    to {
+        margin-bottom:20px;
+    }
+}
+
+@keyframes animasiyaSec {
+    from {
+        margin-bottom: 20px;
+    }
+
+    to {
+        margin-top: 20px;
+    }
+}
+
+.navbar {
+    background: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+
+.navbar-toggler:focus {
+        outline: none;
+}
+
+.nav-link{
+    color:#000!important;
+    font-weight:600;
+    font-size:16px;
+}
+
+.nav-link-sosial {
+    color: #000 !important;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.body-class {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    padding: 20px 11px 0px 110px;
+}
+
+.left{
+    margin:1rem 0 2rem 0;
+    width:50%;
+}
+
+.right {
+    width: 50%;
+}
+
+.main {
+    height: 31rem;
+    background-image: linear-gradient(to right, rgb(128, 0, 128, .4) 50%, rgb(0, 0, 0, .7)), url("../Images/5.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    box-shadow: 0px 10px 30px purple;
+}
+
+.text-container {
+    text-align: center;
+}
+
+.text-heading {
+    font-size: 110px;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-image: linear-gradient(45deg, rgb(0, 0, 0) 50%, rgb(128, 0, 128, .8) 50%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+hr {
+    width: 70%;
+    margin-left: 15%;
+}
+.text-about {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 22px;
+    display: block;
+    margin: 1rem .1rem 1rem .1rem;
+    text-align: center;
+}
+.text-paragraph {
+    margin-top: 2rem;
+    color: #c461e1;
+    letter-spacing: 15px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.text-content {
+    color: #000;
+    width: 95%;
+    margin: 2rem 3rem 1rem 2rem;
+    padding-right:1rem;
+}
+
+u {
+    color: #c461e1;
+}
+
+.span-text {
+    color: #c461e1;
+}
+
+.contact-class {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:22px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.contain-class {
+    width:96%;
+}
+
+.input-class {
+    width:100%;
+    border-radius:20px;
+    padding: 0.7rem 0.7rem 0.7rem 0.7rem;
+}
+
+.input-class:focus {
+        border-color: purple;
+        outline: none;
+        box-shadow: 0px 6px 30px pink;
+}
+
+.button-class {
+    margin: 1rem 0 2rem 0;
+    width: 100%;
+    height: 4rem;
+    border-radius: 100px;
+    background-color: purple;
+    color: white;
+}
+
+.button-class:focus {
+        outline: none;
+}
+
+.button-class:hover {
+        background-color: white;
+        color: purple;
+        border-color: purple;
+        box-shadow: 0px 6px 30px pink;
+}
+
+.label-class{
+    margin:.3rem 0 0 .7rem;
+}
